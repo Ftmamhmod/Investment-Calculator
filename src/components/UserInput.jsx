@@ -9,7 +9,7 @@ export const UserIput = ({ onChange, userInput }) => {
             required
             value={userInput.initialInvestment}
             onChange={(event) =>
-              onChange("initialInvestment", event.target.value)
+              onChange("initialInvestment", event.target.value)//
             }
           />
         </p>
